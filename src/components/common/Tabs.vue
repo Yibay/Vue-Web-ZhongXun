@@ -7,6 +7,8 @@
 </template>
 
 <script>
+  // 通用组件
+
   export default {
     name: 'tabs',
     /*
