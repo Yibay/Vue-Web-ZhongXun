@@ -1,5 +1,7 @@
 <template>
-  <div>section-products</div>
+  <div class="m-section-products">
+    <img src="../../assets/home/home-nav-product.jpg" />
+  </div>
 </template>
 
 <script>
@@ -9,5 +11,6 @@
 </script>
 
 <style scoped>
-
+  .m-section-products{padding: 15px 10%;}
+  .m-section-products img{width: 100%;}
 </style>

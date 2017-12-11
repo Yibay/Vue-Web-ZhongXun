@@ -27,6 +27,7 @@
   /* reset */
   html,body{margin: 0;padding: 0;}
   a{text-decoration: none;color: #000;}
+  p{margin: 0;}
 
   /* common */
   .contain{margin: 0 auto;width: 1200px;}

@@ -4,6 +4,9 @@
       <h5>{{sections_data.title}}<small>{{sections_data.title_sub}}</small></h5>
     </div>
     <slot></slot>
+    <div class="footer">
+      <img src="../../assets/home/learn-more.png" />
+    </div>
   </div>
 </template>
 
@@ -24,5 +27,9 @@
 </script>
 
 <style scoped>
-  .m-section{}
+  .m-section{text-align: left;}
+  .m-section .header{border-bottom: 4px solid #ababab;}
+  .m-section .header h5{margin: 0;line-height: 2em;font-size: 15px;color: #59b435;font-family: "MicrosoftYaHei", Helvetica, sans-serif;}
+  .m-section .header small{margin-left: 5px;font-size: 12px;font-weight: 700;color: #4c4c4c;}
+  .m-section img{margin-left: 8px;width: 22%;}
 </style>

@@ -33,5 +33,5 @@
 
 <style scoped>
   .g-header{position: relative;}
-  .g-header .logo{position: absolute;left: 114px;top: 0;width: 124px;}
+  .g-header .logo{position: absolute;z-index: 1;left: 114px;top: 0;width: 124px;}
 </style>
