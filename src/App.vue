@@ -1,20 +1,20 @@
 <template>
   <div id="app">
     <!-- 头部导航 -->
-    <Nav></Nav>
+    <Navigation></Navigation>
     <!-- 路由分页，根据 route的path、route-view的name 决定渲染哪个组件 -->
     <router-view v-bind:name="route_selected"></router-view>
   </div>
 </template>
 
 <script>
-  // 入口根组件
+  // 入口根Navigation组件
 
-  import Nav from './components/customized/Nav'
+  import Navigation from './components/customized/Navigation'
 
   export default {
     name: 'app',
-    components: { Nav },
+    components: { Navigation },
     computed: {
       route_selected: function () {  // data内的数据，初始化后，不会自动变化；computed 内的属性会随着渲染 重新计算
         return this.$route.params.id || 'index'  // 切换页面时，重新计算 路由的id 参数 // 绑定route的组件内 及 子组件内，可通过 this.$route.params.id 获取path 参数:id
