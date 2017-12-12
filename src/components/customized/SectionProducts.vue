@@ -1,6 +1,6 @@
 <template>
   <div class="m-section-products">
-    <img src="../../assets/home/home-nav-product.jpg" />
+    <img src="../../assets/img/home/home-nav-product.jpg" />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="m-page-box">
-    <div class="content-box">
+    <div class="content-box f-ofy-auto">
       <div class="content">
         <h3>{{title}}</h3>
         <slot></slot>

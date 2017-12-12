@@ -1,6 +1,6 @@
 <template>
   <div class="m-section-contactus f-cb">
-    <img class="f-fl" src="../../assets/home/home-nav-contact.jpg" />
+    <img class="f-fl" src="../../assets/img/home/home-nav-contact.jpg" />
     <p>
       <span>童经理: </span>155-5802-0222<br><span>冉经理: </span>180-0661-0103<br><span>邮编: </span>314200<br>浙江省平湖市经济开发区兴工路2611号
     </p>

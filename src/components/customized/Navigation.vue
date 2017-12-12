@@ -1,6 +1,6 @@
 <template>
   <div class="g-header contain f-cb">
-    <img class="logo" src="../../assets/zx-logo.png" />
+    <img class="logo" src="../../assets/img/zx-logo.png" />
     <Tabs v-bind:tabs_data="tabs_data" v-bind:tabs_selected="tabs_selected" class="f-fr"></Tabs>
   </div>
 </template>

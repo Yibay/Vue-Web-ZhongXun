@@ -6,7 +6,7 @@
     <!-- 卡槽 -->
     <slot></slot>
     <div class="footer">
-      <img src="../../assets/home/learn-more.png" />
+      <img src="../../assets/img/home/learn-more.png" />
     </div>
   </div>
 </template>

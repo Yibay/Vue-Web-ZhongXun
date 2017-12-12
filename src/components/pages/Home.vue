@@ -1,7 +1,7 @@
 <template>
   <div class="m-home contain">
     <div class="home-logo-box">
-      <img src="../../assets/home/home-logo.jpg" />
+      <img src="../../assets/img/home/home-logo.jpg" />
       <h2 class="title">浙江中循再生资源处置利用有限公司</h2>
       <h3 class="subtitle">提供线路板以及含线路板等电子废物的处置回收服务</h3>
     </div>
