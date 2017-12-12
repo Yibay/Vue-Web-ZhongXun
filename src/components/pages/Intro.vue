@@ -36,9 +36,11 @@
         swiperOption: {
           slidesPerView: 3,
           spaceBetween: 40,
-          autoplay: 2000, // 可选选项，自动滑动
+          autoplay: {  // 可选选项，自动滑动
+            delay: 2500,
+            disableOnInteraction: false
+          },
           loop: true,
-          autoplayDisableOnInteraction: false,
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
