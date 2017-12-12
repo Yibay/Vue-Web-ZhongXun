@@ -7,10 +7,10 @@
   import PageBox from '../common/PageBox'
 
   export default {
-    name: 'intro',
+    name: 'contact',
     data () {
       return {
-        title: '公司介绍'
+        title: '回收产品'
       }
     },
     components: { PageBox }

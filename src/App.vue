@@ -3,7 +3,7 @@
     <!-- 头部导航 -->
     <Navigation></Navigation>
     <!-- 路由分页，根据 route的path、route-view的name 决定渲染哪个组件 -->
-    <router-view v-bind:name="route_selected"></router-view>
+    <router-view v-bind:name="route_selected" class="f-f1 f-ofya"></router-view>
   </div>
 </template>
 
@@ -25,7 +25,8 @@
 
 <style>
   /* reset */
-  html,body{margin: 0;padding: 0;}
+  html,body,#app{margin: 0;padding: 0;height: 100%;min-width: 1200px;}
+  h1,h2,h3,h4,h5{margin: 0;}
   a{text-decoration: none;color: #000;}
   p{margin: 0;}
 
@@ -36,9 +37,11 @@
   .f-cb::before,.f-cb::after{display: table;content: '';clear: both;}
   .f-fr{float: right;}
   .f-fl{float: left;}
+  .f-f1{flex: 1;}
+  .f-ofya{overflow-y: auto;}
 
   /* page */
-  #app {
+  #app {display: flex;flex-flow: column;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

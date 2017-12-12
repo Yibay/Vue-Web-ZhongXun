@@ -3,6 +3,7 @@
     <div class="header">
       <h5>{{sections_data.title}}<small>{{sections_data.title_sub}}</small></h5>
     </div>
+    <!-- 卡槽 -->
     <slot></slot>
     <div class="footer">
       <img src="../../assets/home/learn-more.png" />

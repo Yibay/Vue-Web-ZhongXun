@@ -49,7 +49,7 @@
   /* banner图 */
   .m-home .home-logo-box{position: relative;width: 100%;}
   .m-home .home-logo-box img{width: 100%;}
-  .m-home .home-logo-box .title{position: absolute;top: 15%;right: 1%;margin: 0;font-size: 61px;color: #fff;}
+  .m-home .home-logo-box .title{position: absolute;top: 15%;right: 1%;margin: 0;font-size: 61px;color: rgb(250, 250, 250);font-family: "GJJCQJW GB1 0", "微软雅黑 Regular", "Microsoft YaHei", Helvetica, sans-serif;}
   .m-home .home-logo-box .subtitle{position: absolute;top: 39%;right: 16%;margin: 0;font-size: 31px;color: rgb(218, 218, 218);;}
   /* 3个Section模块 */
   .m-home .section-box{display: flex;margin-top: 30px;padding: 0;list-style-type: none;}
