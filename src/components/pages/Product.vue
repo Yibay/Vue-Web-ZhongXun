@@ -1,5 +1,6 @@
 <template>
-  <PageBox v-bind:title="title"></PageBox>
+  <PageBox v-bind:title="title">
+  </PageBox>
 </template>
 
 <script>

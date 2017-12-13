@@ -8,7 +8,7 @@
     <ul class="section-box">
       <!-- 3列等宽 布局：循环 -->
       <li v-for="item in sections">
-        <router-link :to="{name: '', params: {id: item.to_link}}">
+        <router-link :to="{name: 'rootPath', params: {id: item.to_link}}">
           <Sections v-bind:sections_data="item">
             <!-- 定制化 内嵌组件 -->
             <SectionAboutUs v-if="item.content === 'SectionAboutUs'" ></SectionAboutUs>

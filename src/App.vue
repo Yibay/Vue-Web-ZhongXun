@@ -3,7 +3,7 @@
     <!-- 头部导航 -->
     <Navigation></Navigation>
     <!-- 路由分页，根据 route的path、route-view的name 决定渲染哪个组件 -->
-    <router-view v-bind:name="route_selected" class="f-f1 f-ofh"></router-view>
+    <router-view v-bind:name="route_selected" class="f-f1 f-oh"></router-view>
   </div>
 </template>
 
@@ -38,7 +38,7 @@
   .f-fr{float: right;}
   .f-fl{float: left;}
   .f-f1{flex: 1;}
-  .f-ofh{overflow: hidden;}
+  .f-oh{overflow: hidden;}
   .f-ofy-auto{overflow-y: auto;}
 
   /* page */

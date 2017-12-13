@@ -15,7 +15,7 @@ export default new Router({
     },
     {
       path: '/:id',
-      name: 'Home',
+      name: 'rootPath', // 路由的名称，如：<router-link :to="{name: 'rootPath', params: {id: item.z_active}}">
       components: { // 绑定route的组件内 及 子组件内，可通过 this.$route.params.id 获取path 参数:id
         index: Home,  // 匹配上，路径后，根据 name 决定 显示哪个组件，如：<router-view name="product">
         intro: Intro,
