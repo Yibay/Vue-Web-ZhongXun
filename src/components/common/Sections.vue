@@ -27,10 +27,16 @@
   }
 </script>
 
-<style scoped>
-  .m-section{text-align: left;}
-  .m-section .header{border-bottom: 4px solid #ababab;}
-  .m-section .header h5{margin: 0;line-height: 2em;font-size: 15px;color: #59b435;font-family: "MicrosoftYaHei", Helvetica, sans-serif;}
-  .m-section .header small{margin-left: 5px;font-size: 12px;font-weight: 700;color: #4c4c4c;}
-  .m-section img{margin-left: 8px;width: 22%;}
+<style lang="scss" scoped>
+  .m-section{
+    text-align: left;
+
+    .header{
+      border-bottom: 4px solid #ababab;
+
+      h5{margin: 0;line-height: 2em;font-size: 15px;color: #59b435;font-family: "MicrosoftYaHei", Helvetica, sans-serif;}
+      small{margin-left: 5px;font-size: 12px;font-weight: 700;color: #4c4c4c;}
+    }
+    img{margin-left: 8px;width: 22%;}
+  }
 </style>

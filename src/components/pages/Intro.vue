@@ -57,13 +57,20 @@
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   /* 文案介绍 */
-  .intro-describe{padding: 20px 50px 0;}
-  .intro-describe p{text-indent: 2em;}
+  .intro-describe{
+    padding: 20px 50px 0;
+
+    p{text-indent: 2em;}
+  }
+
   /* 轮播图样式 */
-  .m-swiper{margin-top: 70px;padding: 0 50px;box-sizing: border-box;}
-  .m-swiper .slide-img{display: block;width: 100%;}
-  .m-swiper .swiper-button-prev{position: absolute;left: 0;top: 0;margin-top: 0;width: 50px;height: 100%;background: url(../../assets/img/intro/arrow-prev.png) center/26px 26px no-repeat #fff;}
-  .m-swiper .swiper-button-next{position: absolute;right: 0;top: 0;margin-top: 0;width: 50px;height: 100%;background: url(../../assets/img/intro/arrow-next.png) center/28px 26px no-repeat #fff;}
+  .m-swiper{
+    margin-top: 70px;padding: 0 50px;box-sizing: border-box;
+
+    .slide-img{display: block;width: 100%;}
+    .swiper-button-prev{position: absolute;left: 0;top: 0;margin-top: 0;width: 50px;height: 100%;background: url(../../assets/img/intro/arrow-prev.png) center/26px 26px no-repeat #fff;}
+    .swiper-button-next{position: absolute;right: 0;top: 0;margin-top: 0;width: 50px;height: 100%;background: url(../../assets/img/intro/arrow-next.png) center/28px 26px no-repeat #fff;}
+  }
 </style>

@@ -11,7 +11,9 @@
   }
 </script>
 
-<style scoped>
-  .m-section-aboutus img{width: 38%;margin: 8px 15px 8px 8px;}
-  .m-section-aboutus p{padding: 7px;text-indent: 2em;text-align: left;font-size: 15px;}
+<style lang="scss" scoped>
+  .m-section-aboutus{
+    img{width: 38%;margin: 8px 15px 8px 8px;}
+    p{padding: 7px;text-indent: 2em;text-align: left;font-size: 15px;}
+  }
 </style>

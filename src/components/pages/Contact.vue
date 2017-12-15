@@ -28,10 +28,16 @@
   }
 </script>
 
-<style scoped>
-  .m-contact{padding: 50px 50px 0;}
-  .m-contact .m-contact-msg{margin-right: 20px;max-width: 190px;}
-  .m-contact .m-contact-msg p{font-size: 16px;font-weight: 500;line-height: 2em;}
-  .m-contact .m-contact-msg .title{width: 4em;}
-  .m-contact .m-contact-msg .content{display: block;overflow: hidden;}
+<style lang="scss" scoped>
+  .m-contact{
+    padding: 50px 50px 0;
+
+    .m-contact-msg{
+      margin-right: 20px;max-width: 190px;
+
+      p{font-size: 16px;font-weight: 500;line-height: 2em;}
+      .title{width: 4em;}
+      .content{display: block;overflow: hidden;}
+    }
+  }
 </style>

@@ -13,8 +13,13 @@
   }
 </script>
 
-<style scoped>
-  .m-section-contactus img{margin: 8px 15px 8px 8px;width: 38%;}
-  .m-section-contactus p{padding: 7px;font-size: 15px;}
-  .m-section-contactus p span{display: inline-block;width: 4em;}
+<style lang="scss" scoped>
+  .m-section-contactus{
+    img{margin: 8px 15px 8px 8px;width: 38%;}
+    p{
+      padding: 7px;font-size: 15px;
+
+      span{display: inline-block;width: 4em;}
+    }
+  }
 </style>

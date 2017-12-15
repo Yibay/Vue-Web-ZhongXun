@@ -10,7 +10,10 @@
   }
 </script>
 
-<style scoped>
-  .m-section-products{padding: 15px 10%;}
-  .m-section-products img{width: 100%;}
+<style lang="scss" scoped>
+  .m-section-products{
+    padding: 15px 10%;
+
+    img{width: 100%;}
+  }
 </style>

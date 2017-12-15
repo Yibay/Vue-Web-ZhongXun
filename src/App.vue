@@ -42,11 +42,5 @@
   .f-ofy-auto{overflow-y: auto;}
 
   /* page */
-  #app {display: flex;flex-flow: column;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-  }
+  #app {display: flex;flex-flow: column;font-family: 'Avenir', Helvetica, Arial, sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-align: center;color: #2c3e50;}
 </style>

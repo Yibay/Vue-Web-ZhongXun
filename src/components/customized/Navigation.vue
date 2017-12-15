@@ -31,7 +31,10 @@
   }
 </script>
 
-<style scoped>
-  .g-header{position: relative;}
-  .g-header .logo{position: absolute;z-index: 1;left: 114px;top: 0;width: 124px;}
+<style lang="scss" scoped>
+  .g-header{
+    position: relative;
+
+    .logo{position: absolute;z-index: 1;left: 114px;top: 0;width: 124px;}
+  }
 </style>
