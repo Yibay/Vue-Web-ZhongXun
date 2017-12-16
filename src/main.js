@@ -4,6 +4,8 @@ import Vue from 'vue'
 
 // 引入第3方组件 vue-amap
 import VueAMap from 'vue-amap'
+// 引入第3方组件 vue-pure-lightbox
+import Lightbox from 'vue-pure-lightbox'
 
 // 项目根组件、路由配置
 import App from './App'
@@ -17,6 +19,8 @@ VueAMap.initAMapApiLoader({
   // 插件集合
   plugin: ['AMap.Autocomplete', 'AMap.PlaceSearch', 'AMap.Scale', 'AMap.OverView', 'AMap.ToolBar', 'AMap.MapType', 'AMap.PolyEditor', 'AMap.CircleEditor']
 })
+
+Vue.use(Lightbox) // 注册 Lightbox的组件 为全局组件 (即：<lightbox>)
 
 Vue.config.productionTip = false
 
